@@ -15,9 +15,9 @@ body{
    
 }
 h1{
-    background: radial-gradient(red,darkred,orange,white,red,darkred,brown);
+    /* background: radial-gradient(red,darkred,orange,white,red,darkred,brown);
     -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
+    -webkit-background-clip: text; */
     color: rgb(133, 0, 0);
     text-align: center;
     font-family:'Courier New', Courier, monospace;
@@ -58,11 +58,11 @@ li{
 }
 
 @media (max-width:600px) {
-    body{
+    /* body{
         background-image: url(Images/Untitled\ design\(4\).png);
         background-repeat: no-repeat;
         background-size: cover;
-    }
+    } */
 
     .headerimage{
         width: 100%;
@@ -77,5 +77,8 @@ li{
     }
     .flyer{
         width: 100%;
+       margin-left: -5px;
+       margin-top: 50px;
+       margin-bottom: 150px;
     }
 }
